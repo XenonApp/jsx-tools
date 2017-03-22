@@ -1,8 +1,10 @@
-/*global _*/
+'use strict';
+
 var transform = require("./transform");
 var javaScriptCheck = require('xenon-javascript-tools').check;
+
 module.exports = function(info) {
-    var options = _.extend(info.options, {
+    var options = Object.assign(info.options, {
        globals: {
            React: true
        }
