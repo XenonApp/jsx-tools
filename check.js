@@ -1,6 +1,6 @@
 /*global _*/
 var transform = require("./transform");
-var javaScriptCheck = require("../javascript-mode/check");
+var javaScriptCheck = require('xenon-javascript-tools').check;
 module.exports = function(info) {
     var options = _.extend(info.options, {
        globals: {

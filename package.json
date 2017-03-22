@@ -1,10 +1,26 @@
 {
-    "name": "JSX Mode",
-    "uri": "gh:zedapp/jsx-mode",
-    "version": "0.2",
-    "description": "JSX support for Zed",
-    "files": [
-        "check.js",
-        "transform.js"
-    ]
+  "name": "xenon-jsx-tools",
+  "version": "0.0.0",
+  "description": "JSX tools for Xenon.  Includes indexing and linting.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonApp/jsx-tools.git"
+  },
+  "keywords": [
+    "xenon",
+    "xenon-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonApp/jsx-tools/issues"
+  },
+  "homepage": "https://github.com/XenonApp/jsx-tools#readme",
+  "peerDependencies": {
+    "xenon-javascript-tools": "^0.1.0"
+  }
 }
